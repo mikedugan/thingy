@@ -1,0 +1,18 @@
+{
+    "name": "dugan/thing",
+    "description": "Strong typing library for PHP 5.5+",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mike Dugan",
+            "email": "mike@mjdugan.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dugan\\Thing\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
