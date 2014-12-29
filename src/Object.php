@@ -1,6 +1,6 @@
-<?php
+<?php namespace Dugan\Thing;
 
-abstract class Object
+class Object
 {
     protected $value;
 
@@ -9,8 +9,8 @@ abstract class Object
         $this->value = $value;
     }
 
-    public static function new($value)
+    public static function create($value)
     {
-        return self::__construct($value);
+        return new self($value);
     }
 }
