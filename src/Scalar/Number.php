@@ -2,36 +2,36 @@
 
 use Dugan\Thing\Object;
 
-class Number extends Object
+abstract class Number extends Object
 {
-    public function add()
+    public function add($value)
     {
-
+        return self::infer($this->value + $value);
     }
 
-    public function substract()
+    public function subtract($value)
     {
-
+        return self::infer($this->value - $value);
     }
 
-    public function divide()
+    public function divide($value)
     {
-
+        return self::infer($this->value / $value);
     }
 
-    public function multiply()
+    public function multiply($value)
     {
-
+        return self::infer($this->value * $value);
     }
 
-    public function modulo()
+    public function modulo($value)
     {
-
+        return self::infer($this->value % $value);
     }
 
-    public function power()
+    public function power($value)
     {
-
+        return self::infer(pow($this->value, $value));
     }
 
     /**
@@ -43,9 +43,11 @@ class Number extends Object
 
     public function toInt()
     {
+        return self::infer((int) $this->value);
     }
 
     public function toFloat()
     {
+        return self::infer((float) $this->value);
     }
 }
