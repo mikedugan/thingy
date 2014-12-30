@@ -1,6 +1,6 @@
-<?php namespace Dugan\Thing\Scalar;
+<?php namespace Dugan\Thingy\Scalar;
 
-use Dugan\Thing\Object;
+use Dugan\Thingy\Object;
 
 abstract class Number extends Object
 {

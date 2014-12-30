@@ -1,4 +1,4 @@
-<?php namespace Dugan\Thing
+<?php namespace Dugan\Thingy
 
 class Hash
 {

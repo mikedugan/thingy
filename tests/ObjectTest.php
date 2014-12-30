@@ -1,9 +1,9 @@
 <?php namespace Dugan\Tests;
 
-use Dugan\Thing\Object;
-use Dugan\Thing\Scalar\Float;
-use Dugan\Thing\Scalar\Integer;
-use Dugan\Thing\Scalar\String;
+use Dugan\Thingy\Object;
+use Dugan\Thingy\Scalar\Float;
+use Dugan\Thingy\Scalar\Integer;
+use Dugan\Thingy\Scalar\String;
 
 class ObjectTest extends \PHPUnit_Framework_TestCase {
     protected $resource;
@@ -28,7 +28,7 @@ class ObjectTest extends \PHPUnit_Framework_TestCase {
 
     /**
     * @test
-    * @expectedException \Dugan\Thing\InvalidValueException
+    * @expectedException \Dugan\Thingy\InvalidValueException
     * @expectedExceptionMessage Value cannot be null
     */
     public function validatesObject()

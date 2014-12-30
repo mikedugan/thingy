@@ -1,7 +1,7 @@
 <?php namespace Dugan\Tests;
 
-use Dugan\Thing\Scalar\Float;
-use Dugan\Thing\Scalar\Integer;
+use Dugan\Thingy\Scalar\Float;
+use Dugan\Thingy\Scalar\Integer;
 
 class FloatTest extends \PHPUnit_Framework_TestCase {
     protected $resource;

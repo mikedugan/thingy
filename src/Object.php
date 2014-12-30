@@ -1,8 +1,9 @@
-<?php namespace Dugan\Thing;
+<?php namespace Dugan\Thingy;
 
-use Dugan\Thing\Scalar\Float;
-use Dugan\Thing\Scalar\Integer;
-use Dugan\Thing\Scalar\String;
+use Dugan\Thingy\Collection\Collection;
+use Dugan\Thingy\Scalar\Float;
+use Dugan\Thingy\Scalar\Integer;
+use Dugan\Thingy\Scalar\String;
 
 class Object
 {
@@ -36,7 +37,8 @@ class Object
         'integer' => Integer::class,
         'double' => Float::class,
         'float' => Float::class,
-        'string' => String::class
+        'string' => String::class,
+        'array' => Collection::class
     ];
 
     /**

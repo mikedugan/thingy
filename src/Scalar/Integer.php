@@ -1,10 +1,10 @@
-<?php namespace Dugan\Thing\Scalar;
+<?php namespace Dugan\Thingy\Scalar;
 
-use Dugan\Thing\InvalidValueException;
+use Dugan\Thingy\InvalidValueException;
 
 class Integer extends Number
 {
-    protected function isValid()
+    protected function validate()
     {
         if (! is_int($this->value)) {
             throw new InvalidValueException("{$this->value} is not a valid integer");

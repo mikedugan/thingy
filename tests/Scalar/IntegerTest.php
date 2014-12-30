@@ -1,6 +1,6 @@
 <?php namespace Dugan\Tests\Scalar;
 
-use Dugan\Thing\Scalar\Integer;
+use Dugan\Thingy\Scalar\Integer;
 
 class IntegerTest extends \PHPUnit_Framework_TestCase
 {

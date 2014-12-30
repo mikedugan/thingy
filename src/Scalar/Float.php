@@ -1,6 +1,6 @@
-<?php namespace Dugan\Thing\Scalar;
+<?php namespace Dugan\Thingy\Scalar;
 
-use Dugan\Thing\InvalidValueException;
+use Dugan\Thingy\InvalidValueException;
 
 class Float extends Number
 {
